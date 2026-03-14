@@ -173,7 +173,7 @@ public class GameWorld{
     allPlayers.add(new Player(40, "Preesha", 75));
 
     applyPowerUps(removeCharacters(allPlayers));
-    Player a = allPlayers.get((int) Math.random() * allPlayers.size()); //utilized math class
+    Player a = allPlayers.get((int)(Math.random() * allPlayers.size())); //utilized math class
     fight(a, b); //creature and player fight     
   }
 }
